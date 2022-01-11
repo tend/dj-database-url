@@ -14,7 +14,7 @@ setup(
     description="Use Database URLs in your Django Application.",
     long_description=readme,
     py_modules=["dj_database_url"],
-    install_requires=["Django>3.2.11"],
+    install_requires=["Django>3.2"],
     zip_safe=False,
     include_package_data=True,
     platforms="any",
