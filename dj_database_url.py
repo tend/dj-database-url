@@ -42,9 +42,9 @@ SCHEMES = {
     'oracle': 'django.db.backends.oracle',
     'oraclegis': 'django.contrib.gis.db.backends.oracle',
     'redshift': 'django_redshift_backend',
-    'postgres': 'django.db.backends.postgresql_psycopg2',
-    'postgresql': 'django.db.backends.postgresql_psycopg2',
-    'pgsql': 'django.db.backends.postgresql_psycopg2'
+    'postgres': 'django.db.backends.postgresql',
+    'postgresql': 'django.db.backends.postgresql',
+    'pgsql': 'django.db.backends.postgresql'
 }
 
 

@@ -6,7 +6,7 @@ with open('README.rst') as readme_rst:
 
 setup(
     name="django-database-url",
-    version="1.0.1",
+    version="1.0.3",
     url="https://github.com/tend/dj-database-url",
     license="BSD",
     author="Rati Matchavariani",
@@ -14,7 +14,7 @@ setup(
     description="Use Database URLs in your Django Application.",
     long_description=readme,
     py_modules=["dj_database_url"],
-    install_requires=["Django>3.2"],
+    install_requires=["django>3.2"],
     zip_safe=False,
     include_package_data=True,
     platforms="any",
